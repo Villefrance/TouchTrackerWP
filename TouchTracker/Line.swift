@@ -9,7 +9,7 @@
 import Foundation
 import CoreGraphics
 
-struct Line {
+struct Line: Codable {
     var begin = CGPoint.zero
     var end = CGPoint.zero
 }

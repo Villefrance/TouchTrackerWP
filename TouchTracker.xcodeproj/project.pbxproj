@@ -16,6 +16,7 @@
 		390B76391F9F25B00036EE09 /* TouchTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390B76381F9F25B00036EE09 /* TouchTrackerUITests.swift */; };
 		390B76471F9F26100036EE09 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390B76461F9F26100036EE09 /* Line.swift */; };
 		390B76491F9F27040036EE09 /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390B76481F9F27040036EE09 /* DrawView.swift */; };
+		FDBE022A218A014E0082108A /* Drawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBE0229218A014E0082108A /* Drawing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		390B763A1F9F25B00036EE09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		390B76461F9F26100036EE09 /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
 		390B76481F9F27040036EE09 /* DrawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
+		FDBE0229218A014E0082108A /* Drawing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drawing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				390B76241F9F25B00036EE09 /* Info.plist */,
 				390B76461F9F26100036EE09 /* Line.swift */,
 				390B76481F9F27040036EE09 /* DrawView.swift */,
+				FDBE0229218A014E0082108A /* Drawing.swift */,
 			);
 			path = TouchTracker;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 				390B761B1F9F25B00036EE09 /* ViewController.swift in Sources */,
 				390B76491F9F27040036EE09 /* DrawView.swift in Sources */,
 				390B76191F9F25B00036EE09 /* AppDelegate.swift in Sources */,
+				FDBE022A218A014E0082108A /* Drawing.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

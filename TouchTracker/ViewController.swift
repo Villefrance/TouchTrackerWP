@@ -9,17 +9,30 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    
+    @IBOutlet var drawView: DrawView!
+    
+    // MARK: - Model
+    
+    var drawing: Drawing? {
+        get {
+            return Drawing(lines: drawView.finishedLines)
+        } set {
+            
+        }
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func save(_ sender: UIBarButtonItem) {
+        if let json = drawing?.json {
+            if let jsonString = String(data: json, encoding: .utf8) {
+                print(jsonString)
+            }
+        }
     }
-
-
+    
+    
+    
 }
 

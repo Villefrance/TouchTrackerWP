@@ -9,7 +9,7 @@
 import UIKit
 
 class DrawView: UIView, UIGestureRecognizerDelegate {
-    
+
     var currentLines = [NSValue:Line]()
     var finishedLines = [Line]()
     var selectedLineIndex: Int? {
