@@ -103,15 +103,12 @@
 		390B76171F9F25B00036EE09 /* TouchTracker */ = {
 			isa = PBXGroup;
 			children = (
-				390B76181F9F25B00036EE09 /* AppDelegate.swift */,
-				390B761A1F9F25B00036EE09 /* ViewController.swift */,
+				FDBE022B218A13E30082108A /* Supporting Files */,
+				FDBE022C218A14020082108A /* Model */,
 				390B761C1F9F25B00036EE09 /* Main.storyboard */,
-				390B761F1F9F25B00036EE09 /* Assets.xcassets */,
-				390B76211F9F25B00036EE09 /* LaunchScreen.storyboard */,
-				390B76241F9F25B00036EE09 /* Info.plist */,
-				390B76461F9F26100036EE09 /* Line.swift */,
+				390B761A1F9F25B00036EE09 /* ViewController.swift */,
 				390B76481F9F27040036EE09 /* DrawView.swift */,
-				FDBE0229218A014E0082108A /* Drawing.swift */,
+				390B76241F9F25B00036EE09 /* Info.plist */,
 			);
 			path = TouchTracker;
 			sourceTree = "<group>";
@@ -132,6 +129,25 @@
 				390B763A1F9F25B00036EE09 /* Info.plist */,
 			);
 			path = TouchTrackerUITests;
+			sourceTree = "<group>";
+		};
+		FDBE022B218A13E30082108A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				390B761F1F9F25B00036EE09 /* Assets.xcassets */,
+				390B76211F9F25B00036EE09 /* LaunchScreen.storyboard */,
+				390B76181F9F25B00036EE09 /* AppDelegate.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDBE022C218A14020082108A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				390B76461F9F26100036EE09 /* Line.swift */,
+				FDBE0229218A014E0082108A /* Drawing.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
